@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+
+<body>
+    <h1 id="title">USER LOGIN</h1>
+    <br>
+    <br>
+    <center>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail1">UserName</label>
+                <input type="text" name="username" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Enter username">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" name="password" class="form-control" id="exampleInputPassword1"
+                    placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+            </div>
+            <button type="submit" class="btn btn-primary">LOGIN</button>
+        </form>
+        <small class="form-text text-muted">Not a User ?? Sign Up please .</small>
+        <a href="/signup"><button class="btn btn-success">SIGN UP</button> </a>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+#title {
+  padding: 2%;
+  text-align: center;
+}
+#A {
+  text-align: center;
+}
+.btn {
+  margin: 2%;
+}
+.form-group {
+  width: 50%;
+  text-align: center;
+}
